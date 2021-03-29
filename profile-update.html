@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Profile - Codeigniter E-Commerce</title>
+    <title>Profile-Update - Codeigniter E-Commerce</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
 
@@ -90,25 +90,35 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="https://placehold.co/150x200" alt="">
-                            </div>
-                        </div>
+                <div class="card">
+                    <div class="header">
+                        Formulir profile
                     </div>
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-body">
-                                <p>nama: Rido</p>
-                                <p>E-Mail: Ridohaloho@gmail.com</p>
-                                <a href="/profile-update.html" class="btn btn-primary">Edit</a>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Nama</label>
+                                <input type="email" class="form-control" required autofocus>
+                                <small class="form-text text-danger">Nama Harus Diisi</small>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" required>
+                                <small class="form-text text-danger">E-Mail Harus Diisi</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="">password</label>
+                                <input type="password" class="form-control" required autofocus>
+                                <small class="form-text text-danger">Password Harus Diisi</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Foto</label><br>
+                                <input type="file" name="photo" id="">
+                            </div><br>
+                            <button type="submit" class="btn btn-primary">Simpan</button>
+                        </form>
                     </div>
                 </div>
-
             </div>
     </main>
 
